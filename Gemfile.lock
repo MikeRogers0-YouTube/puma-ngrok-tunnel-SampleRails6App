@@ -106,12 +106,16 @@ GEM
     minitest (5.11.3)
     msgpack (1.2.10)
     multi_json (1.13.1)
+    ngrok-tunnel (2.1.1)
     nio4r (2.3.1)
     nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
     pg (1.1.4)
     public_suffix (3.0.3)
     puma (3.12.1)
+    puma-ngrok-tunnel (0.1.0)
+      ngrok-tunnel (~> 2.1, >= 2.1.1)
+      puma (~> 3.0)
     rack (2.0.7)
     rack-proxy (0.6.5)
       rack
@@ -216,6 +220,7 @@ DEPENDENCIES
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
   puma (~> 3.11)
+  puma-ngrok-tunnel
   rails (~> 6.0.0.rc1)
   sass-rails (~> 5)
   selenium-webdriver
