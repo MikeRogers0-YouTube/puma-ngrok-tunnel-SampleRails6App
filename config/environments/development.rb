@@ -1,4 +1,7 @@
 Rails.application.configure do
+  # puma-ngrok-tunnel: Allow connections from ngrok
+  config.hosts << /[a-z0-9.]+.ngrok.io/
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
