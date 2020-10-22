@@ -1,24 +1,5 @@
-# README
+# puma-ngrok-tunnel - Sample App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a sample app for how to install [puma-ngrok-tunnel](https://github.com/MikeRogers0/puma-ngrok-tunnel).
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+puma-ngrok-tunnel is a gem which opens a ngrok tunnel when you start rails.
